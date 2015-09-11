@@ -1,15 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
-using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApplication2
 {
@@ -197,20 +190,4 @@ namespace ConsoleApplication2
             Console.WriteLine("Batch EF 1000 record time {0}", efsw.ElapsedMilliseconds);
         }
     }
-
-    public class Context : DbContext
-    {
-        public Context() : base("default") { }
-        public DbSet<Item> Items { get; set; }
-    }
-    public class Item
-    {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid Id { get; set; }
-        public Guid CoreID { get; set; }
-        public string Name { get; set; }
-        public int City { get; set; }
-    }
-
 }
