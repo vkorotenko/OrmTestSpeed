@@ -152,7 +152,7 @@ namespace ConsoleApplication2
         private static void EfPure(Context ct, Stopwatch efsw)
         {
             efsw.Start();
-            for (var i = 0; i < 47000; i++)
+            for (var i = 0; i < 1000; i++)
             {
                 var item = new Item()
                     {
