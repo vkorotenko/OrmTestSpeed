@@ -15,8 +15,7 @@ build/
 [Bb]in/
 [Oo]bj/
 
-# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
-!packages/*/build/
+
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -45,6 +44,9 @@ build/
 *.pidb
 *.log
 *.scc
+
+#visual studio
+.vs/
 
 # Visual C++ cache files
 ipch/
@@ -107,7 +109,7 @@ csx
 AppPackages/
 
 # Others
-sql/
+
 *.Cache
 ClientBin/
 [Ss]tyle[Cc]op.*
@@ -154,3 +156,5 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+
+packages/

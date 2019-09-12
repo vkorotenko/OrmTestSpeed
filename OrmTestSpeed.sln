@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmTestSpeed", "ConsoleApplication2\OrmTestSpeed.csproj", "{999281DF-9286-42A3-933A-92BDAA8E95E7}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrmTestSpeed", "OrmTestSpeed\OrmTestSpeed.csproj", "{999281DF-9286-42A3-933A-92BDAA8E95E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5618A0C9-FD23-45DD-8A2E-37D7B0665DCA}
 	EndGlobalSection
 EndGlobal
